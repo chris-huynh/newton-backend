@@ -1,0 +1,22 @@
+{
+  "name": "newton-backend",
+  "version": "1.0.0",
+  "description": "Backend client to interface with OMDb and pass back data regarding movies containing 'newton' in the title",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Christopher Huynh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
